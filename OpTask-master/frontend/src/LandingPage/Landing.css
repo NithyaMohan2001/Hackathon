@@ -1,0 +1,119 @@
+.pageBody {
+  height: 100%;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:none
+}
+
+.linkText {
+  text-decoration: none;
+  color: rgb(116, 112, 112);
+  margin-bottom: 10px;
+}
+
+.gradient {
+  background: rgb(0,82,82);
+  /* background: linear-gradient(90deg, rgba(0,82,82,1) 0%, rgba(0,144,144,1) 74%); */
+}
+
+.signUpBtn {
+  border-color: white;
+  color: white;
+}
+
+.signUpBtn:hover {
+  background-color: white; 
+  /* #3feee6 */
+  color: #005252;
+  border-color: #005252;
+}
+
+.navbar {
+    margin-top:auto;
+    color:black;
+    list-style-position: inside;
+    font-size:larger;
+    background-color: mediumslateblue;
+    width:fit-content;
+    height:max-content;
+}
+
+.navbar-top{
+  display:flex;
+  list-style-position: inside;
+  background-color: bisque;
+  animation: forwards;
+  background-size: contain;
+}
+
+@-webkit-keyframes sf-slideoutput{
+  from { -webkit-transform: translate3d(0, 0, 0); }
+  to { -webkit-transform: translate3d(240px, 0, 0); }
+}
+
+@-webkit-keyframes sf-slidein[put] {
+  from { -webkit-transform: translate3d(240px, 0, 0); }
+  to { -webkit-transform: translate3d(0, 0, 0); }
+
+
+.title-change{
+  transform:matrix3d();
+  animation:infinite;
+  background-size:contain;
+  display:none;
+}
+
+.title-down{
+  margin:auto;
+  animation:alternate-reverse;
+  transform:none;
+  row-gap:23cm;
+
+  text-indent: inside;
+  text-overflow: clip;
+  background-color: black;
+
+}
+
+.title-cover{
+  background-color: blue;
+  transform: rotate(0,3,2);
+  text-decoration: dotted;
+  transition: all;
+  content: counter(name);
+
+}
+
+.
+.navbar{
+  display: none;
+  align-items: center;
+  backface-visibility: hidden;
+  backdrop-filter:inherit;
+  rotate:transform(0,3,2);
+  background-clip: initial;
+}
+.navbar-bottom{
+  display:contents;
+  list-style-type: style roun;
+}
+
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.feature {
+  color: white;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: upper-roman;
+}
+
+.feature ul li:before {
+  padding-left: 2rem;
+}
